@@ -27,3 +27,13 @@ If you want to edit the file, use the `tokyo_tower.blend` which has a camera and
         </td>
     </tr>
 </table>
+
+## Texture
+If you do not see the steel texture
+ * go to `Shading` workspace
+ * click the `Red steel` material on the right under `Material properties`
+ * reload the png file for the left-most box `tower_texture.png.001`
+ * make sure `Color` of this box is connected to `Fac` of the `Mix Shade` box.
+ * repeat for `White steel`
+ 
+The texture was probably exported with an absolute path.
